@@ -64,3 +64,4 @@ playground.xcworkspace
 
 # Code Injection
 iOSInjectionProject/ 
+.file_activity_report.json
