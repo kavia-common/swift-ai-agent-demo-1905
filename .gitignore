@@ -1,66 +1,64 @@
-# Xcode
-.DS_Store
-xcuserdata/
-*.xcuserstate
-*.xcworkspace/xcuserdata/
-project.xcworkspace/xcuserdata/
-*.xccheckout
-*.moved-aside
-*.xcscmblueprint
-*.xcscheme
 
-# Build
+# Python ignorables
+logs/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
-DerivedData/
-*.build/
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.perspectivev3
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# CocoaPods
-Pods/
-*.xcworkspace
-
-# Carthage
-Carthage/Build/
-
-# Swift Package Manager
-.swiftpm/
-Packages/
-Package.resolved
-*.xcworkspace
-
-# fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
-
-# Environment files
-.dev
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+venv/
 .env
-*.env
+.env.*
 
-# API Keys and sensitive data
-config.plist
-secrets.plist
+# Ignore all directories containing pyvenv.cfg
+**/pyvenv.cfg
+**/*/pyvenv.cfg
 
-# Logs
+# Node.js ignorables
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+.env
+.env.test
+.cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.file_activity_report.json
+*.db
+core.*
+.core
 *.log
-
-# Temporary files
-*.tmp
-*.temp
-*.swp
-*.swo
-
-# iOS Simulator
-*.app/
-*.ipa
-
-# Xcode Playground
-playground.xcworkspace
-
-# Code Injection
-iOSInjectionProject/ 
+post_process_status.lock
+core
